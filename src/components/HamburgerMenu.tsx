@@ -34,10 +34,10 @@ export default function HamburgerMenu() {
         
         {open && (
           <ul className="text-end absolute right-1/2 bg-white">
-            <li className="text-sm phone:text-xl p-1">About Me</li>
-            <li className="text-sm phone:text-xl p-1">Projects</li>
-            <li className="text-sm phone:text-xl p-1">Experience</li>
-            <li className="text-sm phone:text-xl p-1">Contact</li>
+            <li className="text-sm min-[400px]:text-xl p-1 text-nowrap">About Me</li>
+            <li className="text-sm min-[400px]:text-xl p-1 text-nowrap">Projects</li>
+            <li className="text-sm min-[400px]:text-xl p-1 text-nowrap">Stack</li>
+            <li className="text-sm min-[400px]:text-xl p-1 text-nowrap">Contact</li>
           </ul>
         )}
       </nav>

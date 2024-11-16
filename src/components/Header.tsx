@@ -9,11 +9,11 @@ export default function Header() {
           <HamburgerMenu />
         </nav>
 
-        <nav className="hidden min-[1200px]:flex space-x-4">
-          <ul className="flex space-x-7 text-xl items-center">
+        <nav className="hidden min-[1200px]:flex">
+          <ul className="flex space-x-10 text-2xl items-center">
             <li>About Me</li>
             <li>Projects</li>
-            <li>Experience</li>
+            <li>Stack</li>
             <li>Contact</li>
           </ul>
         </nav>
