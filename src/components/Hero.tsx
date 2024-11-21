@@ -5,7 +5,7 @@ import linkedin from "../assets/linkedin.png";
 export default function Hero() {
   return (
     <section 
-      className="mx-5% h-80vh flex flex-col gap-5 min-[1200px]:justify-center items-center min-[1200px]:flex-row min-[1200px]:gap-20 pt-4vh"
+      className="mx-5% h-75vh flex flex-col gap-5 min-[1200px]:justify-center items-center min-[1200px]:flex-row min-[1200px]:gap-20 pt-4vh"
     >
         <figure className="mb-4">
           <img
